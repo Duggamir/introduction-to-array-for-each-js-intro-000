@@ -5,7 +5,7 @@ function doToElementsInArray(array, func)
 }
 
 // Add your changeCompletely() function here:
-function changeCompletely(array, func)
+function changeCompletely(element, index, array)
 {
   array.forEach(func);
 }
